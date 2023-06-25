@@ -10,7 +10,6 @@
     --discord-color: #5865F2;
     --github-color: #181616;
     --figma-color: #000000;
-    --tiktok-color: #000000;
     --shikimori-color: #2A2A2A;
     --codestats-color: #3E4053;
     --spotify-color: #181413;
@@ -77,7 +76,6 @@ body {
 #githubCont,
 #spotifyCont,
 #playlistCont,
-#tiktokCont,
 #footerCont {
     display: flex;
     box-sizing: border-box;
@@ -101,7 +99,6 @@ body {
 #githubCont-elements,
 #spotifyCont-elements,
 #playlistCont-elements,
-#tiktokCont-elements,
 #footerCont-elements {
     display: flex;
     align-items: center;
@@ -180,10 +177,6 @@ body {
 
 #playlistCont .logo {
     filter: brightness(0);
-}
-
-#tiktokCont {
-    background-color: var(--tiktok-color);
 }
 
 /* Define settings for h1 tag */
@@ -273,26 +266,24 @@ span#spotify:hover {
 span.txt-figma {
     color: transparent;
     letter-spacing: 0.05em;
-    background: linear-gradient(
-        #FF7262 16.7%,
-        #FF7262 16.7%,
-        #0ACF83 33.4%,
-        #0ACF83 33.4%,
-        #A259FF 50.1%,
-        #A259FF 50.1%,
-        #1ABCFE 66.8%,
-        #1ABCFE 66.8%,
-        #F24E1E 83.5%,
-        #F24E1E 83.5%
-    );
+    background: linear-gradient(#FF7262 16.7%,
+            #FF7262 16.7%,
+            #0ACF83 33.4%,
+            #0ACF83 33.4%,
+            #A259FF 50.1%,
+            #A259FF 50.1%,
+            #1ABCFE 66.8%,
+            #1ABCFE 66.8%,
+            #F24E1E 83.5%,
+            #F24E1E 83.5%);
     -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
     line-height: 1.1em;
     animation: rainbow 50s linear infinite;
 }
 
-@keyframes rainbow{
-    100%{
+@keyframes rainbow {
+    100% {
         background-position: 0 30em;
     }
 }
@@ -396,10 +387,6 @@ span#spotify {
 
 .spotify-logo {
     background-image: url(assets/icons/social/spotify-logo.svg);
-}
-
-.tiktok-logo {
-    background-image: url(assets/icons/social/tiktok-logo.svg);
 }
 
 .figma-logo {
