@@ -9,6 +9,7 @@
     --twitter-color: #41ABE1;
     --discord-color: #5865F2;
     --github-color: #181616;
+    --figma-color: #000000;
     --tiktok-color: #000000;
     --shikimori-color: #2A2A2A;
     --codestats-color: #3E4053;
@@ -70,6 +71,7 @@ body {
 #tgCont,
 #igCont,
 #boostyCont,
+#figmaCont,
 #twitterCont,
 #discordCont,
 #githubCont,
@@ -93,6 +95,7 @@ body {
 #tgCont-elements,
 #igCont-elements,
 #boostyCont-elements,
+#figmaCont-elements,
 #twitterCont-elements,
 #discordCont-elements,
 #githubCont-elements,
@@ -141,6 +144,10 @@ body {
 #igCont {
     background: #ED4C82;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+#figmaCont {
+    background-color: var(--figma-color);
 }
 
 #twitterCont {
@@ -263,6 +270,33 @@ span#spotify:hover {
     text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
 }
 
+span.txt-figma {
+    color: transparent;
+    letter-spacing: 0.05em;
+    background: linear-gradient(
+        #FF7262 16.7%,
+        #FF7262 16.7%,
+        #0ACF83 33.4%,
+        #0ACF83 33.4%,
+        #A259FF 50.1%,
+        #A259FF 50.1%,
+        #1ABCFE 66.8%,
+        #1ABCFE 66.8%,
+        #F24E1E 83.5%,
+        #F24E1E 83.5%
+    );
+    -webkit-background-clip: text;
+            background-clip: text;
+    line-height: 1.1em;
+    animation: rainbow 50s linear infinite;
+}
+
+@keyframes rainbow{
+    100%{
+        background-position: 0 30em;
+    }
+}
+
 
 /* Define settings for h1, desc and span tag of Spotify block */
 #spotify-h1,
@@ -320,6 +354,17 @@ span#spotify {
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
 
+.figma {
+    display: inline-block;
+    width: 164px;
+    height: 164px;
+    background-size: cover;
+}
+
+.figma:active {
+    background-image: url(assets/icons/social/figma-color-logo.svg) !important;
+}
+
 /* Define paths for logos */
 .vk-logo {
     background-image: url(assets/icons/social/vk-logo.svg);
@@ -355,6 +400,10 @@ span#spotify {
 
 .tiktok-logo {
     background-image: url(assets/icons/social/tiktok-logo.svg);
+}
+
+.figma-logo {
+    background-image: url(assets/icons/social/figma-logo.svg);
 }
 
 /* Define settings for light theme */
