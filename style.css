@@ -193,7 +193,8 @@ h1 {
 }
 
 /* Define settings for button tag */
-input[type=button],input[type=text] {
+input[type=button],
+input[type=text] {
     cursor: pointer;
     margin: 0;
     margin-top: 32px;
@@ -250,14 +251,16 @@ span.social-name {
 }
 
 /* Super span */
-span.social-name, span#spotify {
+span.social-name,
+span#spotify {
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px var(--accent), 0 0 30px var(--accent), 0 0 40px var(--accent), 0 0 55px var(--accent), 0 0 75px var(--accent);
 }
 
-span.social-name:hover, span#spotify:hover {
-    color: rgba(0,0,0,.6);
+span.social-name:hover,
+span#spotify:hover {
+    color: rgba(0, 0, 0, .6);
     background: #6e6e6e;
-    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
 }
 
 
@@ -407,11 +410,13 @@ span#spotify {
     }
 
     /* Set color for button and its hover state */
-    input[type=button],input[type=text] {
+    input[type=button],
+    input[type=text] {
         background-color: var(--accent);
     }
 
-    input[type=button]:hover, input[type=text]:hover {
+    input[type=button]:hover,
+    input[type=text]:hover {
         background-color: var(--accent-hover);
     }
 
@@ -489,11 +494,13 @@ span#spotify {
     }
 
     /* Set color for button and its hover state */
-    input[type=button],input[type=text] {
+    input[type=button],
+    input[type=text] {
         background-color: var(--accent);
     }
 
-    input[type=button]:hover, input[type=text]:hover {
+    input[type=button]:hover,
+    input[type=text]:hover {
         background-color: var(--accent-hover);
     }
 
@@ -558,7 +565,8 @@ span#spotify {
         height: 196px;
     }
 
-    input[type=button],input[type=text] {
+    input[type=button],
+    input[type=text] {
         padding: 18px 24px;
         font-size: 20px;
         font-weight: 400;
@@ -631,7 +639,8 @@ span#spotify {
         height: 208px;
     }
 
-    input[type=button],input[type=text] {
+    input[type=button],
+    input[type=text] {
         font-size: 20px;
         font-weight: 400;
         border-radius: 12px;

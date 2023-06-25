@@ -4,8 +4,8 @@ function changeFavicons() {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.querySelector("link[rel='apple-touch-icon']").setAttribute("href", "favicons/main/dark/apple-touch-icon.png");
         document.querySelector("link[sizes='32x32']").setAttribute("href", "favicons/main/dark/favicon-32x32.png");
-        document.querySelector("link[sizes='16x16']").setAttribute("href",  "favicons/main/dark/favicon-16x16.png");
-        document.querySelector("link[rel='manifest']").setAttribute("href",  "favicons/main/dark/site.webmanifest");
+        document.querySelector("link[sizes='16x16']").setAttribute("href", "favicons/main/dark/favicon-16x16.png");
+        document.querySelector("link[rel='manifest']").setAttribute("href", "favicons/main/dark/site.webmanifest");
         document.querySelector("link[rel='mask-icon']").setAttribute("href", "favicons/main/dark/safari-pinned-tab.svg");
         document.querySelector('link[rel="mask-icon"]').setAttribute("color", "#e6739f");
         document.querySelector("link[rel='shortcut icon']").setAttribute("href", "favicons/main/dark/favicon.ico");
@@ -15,8 +15,8 @@ function changeFavicons() {
     else {
         document.querySelector("link[rel='apple-touch-icon']").setAttribute("href", "favicons/main/light/apple-touch-icon.png");
         document.querySelector("link[sizes='32x32']").setAttribute("href", "favicons/main/light/favicon-32x32.png");
-        document.querySelector("link[sizes='16x16']").setAttribute("href",  "favicons/main/light/favicon-16x16.png");
-        document.querySelector("link[rel='manifest']").setAttribute("href",  "favicons/main/light/site.webmanifest");
+        document.querySelector("link[sizes='16x16']").setAttribute("href", "favicons/main/light/favicon-16x16.png");
+        document.querySelector("link[rel='manifest']").setAttribute("href", "favicons/main/light/site.webmanifest");
         document.querySelector("link[rel='mask-icon']").setAttribute("href", "favicons/main/light/safari-pinned-tab.svg");
         document.querySelector('link[rel="mask-icon"]').setAttribute("color", "#b91d47");
         document.querySelector("link[rel='shortcut icon']").setAttribute("href", "favicons/main/light/favicon.ico");
@@ -64,14 +64,14 @@ window.onload = function () {
 function copy() {
     // Get the text field
     var copyText = document.getElementById("ds");
-  
+
     // Select the text field
     copyText.select();
     copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-     // Copy the text inside the text field
+
+    // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
-  
+
     // Alert the copied text
     alert("Copied the text: " + copyText.value);
-  }
+}
