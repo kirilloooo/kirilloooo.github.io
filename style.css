@@ -17,8 +17,6 @@
     --boosty-color: #F15F2C;
     --social-normal: rgba(255, 255, 255, 1);
     --social-dimmed: rgba(255, 255, 255, 0.6);
-    --spotify-normal: rgba(255, 255, 255, 1);
-    --spotify-dimmed: rgba(255, 255, 255, 0.6);
 }
 
 /* Global settings for elements */
@@ -155,10 +153,6 @@ body {
     background-color: var(--discord-color);
 }
 
-#codeStatsCont {
-    background-color: var(--codestats-color);
-}
-
 #githubCont {
     background-color: var(--github-color);
 }
@@ -251,13 +245,11 @@ span.social-name {
 }
 
 /* Super span */
-span.social-name,
-span#spotify {
+span.social-name {
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px var(--accent), 0 0 30px var(--accent), 0 0 40px var(--accent), 0 0 55px var(--accent), 0 0 75px var(--accent);
 }
 
-span.social-name:hover,
-span#spotify:hover {
+span.social-name:hover {
     color: rgba(0, 0, 0, .6);
     background: #6e6e6e;
     text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
@@ -286,17 +278,6 @@ span.txt-figma {
     100% {
         background-position: 0 30em;
     }
-}
-
-
-/* Define settings for h1, desc and span tag of Spotify block */
-#spotify-h1,
-.desc.spotify {
-    color: var(--spotify-dimmed);
-}
-
-span#spotify {
-    color: var(--spotify-normal);
 }
 
 /* Define settings for avatar */
@@ -573,7 +554,6 @@ span#spotify {
     #githubCont-elements,
     #spotifyCont-elements,
     #playlistCont-elements,
-    #tiktokCont-elements,
     #footerCont-elements {
         width: fit-content;
     }
@@ -623,7 +603,6 @@ span#spotify {
     #githubCont-elements,
     #spotifyCont-elements,
     #playlistCont-elements,
-    #tiktokCont-elements,
     #footerCont-elements {
         flex-direction: row;
         width: fit-content;
