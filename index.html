@@ -1,279 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta name="description" content="chiminori's Landing Page" />
-    <link rel="canonical" href="https://zkyrylo.eu.org" />
-    <title>Chiminori's social media</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicons/main/light/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicons/main/light/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicons/main/light/favicon-16x16.png"
-    />
-    <link rel="manifest" href="favicons/main/light/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="favicons/main/light/safari-pinned-tab.svg"
-      color="#b91d47"
-    />
-    <link rel="shortcut icon" href="favicons/main/light/favicon.ico" />
-    <meta name="apple-mobile-web-app-title" content="cold" />
-    <meta name="application-name" content="cold" />
-    <meta name="msapplication-TileColor" content="#b91d47" />
-    <meta
-      name="msapplication-config"
-      content="favicons/main/light/browserconfig.xml"
-    />
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
 
-  <body>
-    <div id="hostCont">
-      <div id="mainCont">
-        <div id="mainCont-elements">
-          <span id="avatar"> </span>
-          <div class="landscape-elements">
-            <h1>Hi! I’m <span class="theme-accent">chiminori</span>!</h1>
-            <p class="desc theme-dimmed">Welcome to my page!</p>
-          </div>
-        </div>
-        <div id="scrollTip">
-          <p class="tip">Scroll down</p>
-          <a><span id="arrow-down" class="icon"></span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="chiminori's Landing Page" />
+  <link rel="canonical" href="https://zkyrylo.eu.org" />
+  <title>Chiminori's social media</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/main/light/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/main/light/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/main/light/favicon-16x16.png" />
+  <link rel="manifest" href="favicons/main/light/site.webmanifest" />
+  <link rel="mask-icon" href="favicons/main/light/safari-pinned-tab.svg" color="#b91d47" />
+  <link rel="shortcut icon" href="favicons/main/light/favicon.ico" />
+  <meta name="apple-mobile-web-app-title" content="cold" />
+  <meta name="application-name" content="cold" />
+  <meta name="msapplication-TileColor" content="#b91d47" />
+  <meta name="msapplication-config" content="favicons/main/light/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <script src="3.3.1_jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="hostCont">
+    <div id="mainCont">
+      <div id="mainCont-elements">
+        <span id="avatar"> </span>
+        <div class="landscape-elements">
+          <h1>Hi! I’m <span class="theme-accent">chiminori</span>!</h1>
+          <p class="desc theme-dimmed">Welcome to my page!</p>
         </div>
       </div>
-
-      <div id="vkCont">
-        <div id="vkCont-elements">
-          <span class="logo vk-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              <span class="social-name">VK</span>
-            </h1>
-            <p class="desc social-dimmed">
-              My first social network where I signed up
-            </p>
-            <input
-              type="button"
-              onclick="this.value='Oops!'"
-              value="Go to VK"
-              class="social-btn"
-            />
-          </div>
-        </div>
+      <div id="scrollTip">
+        <p class="tip">Scroll down</p>
+        <a><span id="arrow-down" class="icon"></span></a>
       </div>
+    </div>
 
-      <div id="tgCont">
-        <div id="tgCont-elements">
-          <span class="logo tg-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              Here I am in <span class="social-name">Telegram</span>
-            </h1>
-            <p class="desc social-dimmed">
-              My favourite messenger where I spend most of my time, not even
-              that, I spend all my time!
-            </p>
-            <input
-              type="button"
-              onclick="window.open('https://web.telegram.org/k/#@myAlfredo', '_blank')"
-              value="Go to Telegram"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="igCont">
-        <div id="igCont-elements">
-          <span class="logo ig-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              My <span class="social-name">Instagram</span>
-            </h1>
-            <p class="desc social-dimmed">
-              A place to share any photos, sometimes I post as well
-            </p>
-            <input
-              type="button"
-              onclick="window.open('https://instagram.com/man_unexpected_error', '_blank')"
-              value="Go to Instagram"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="githubCont">
-        <div id="githubCont-elements">
-          <span class="logo github-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              Here I am on <span class="social-name">GitHub</span>
-            </h1>
-            <p class="desc social-dimmed">Hosting my hobby repositories here</p>
-            <input
-              type="button"
-              onclick="window.open('https://github.com/kirilloooo', '_blank')"
-              value="Go to GitHub"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="figmaCont">
-        <div id="figmaCont-elements">
-          <span class="figma-logo figma"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              I am in <span class="txt-figma">Figma</span>
-            </h1>
-            <p class="desc social-dimmed">I am a designer(no).</p>
-            <input
-              type="button"
-              onclick="window.open('https://www.figma.com/@chiminori', '_blank')"
-              value="Go to Figma"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="twitterCont">
-        <div id="twitterCont-elements">
-          <span class="logo twitter-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              Dark me on <span class="social-name">Twitter</span>
-            </h1>
-            <p class="desc social-dimmed">
-              It's just there, I visit from time to time.
-            </p>
-            <input
-              type="button"
-              onclick="window.open('https://twitter.com/chiminori_', '_blank')"
-              value="Go to Twitter"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="spotifyCont">
-        <div id="spotifyCont-elements">
-          <span class="logo spotify-logo"></span>
-          <div class="landscape-elements">
-            <h1 id="social-h1 dimmed">
-              Listening on <span class="social-name">Spotify</span>
-            </h1>
-            <p class="desc social-dimmed">
-              My beloved streaming service that I absolutely adore
-            </p>
-            <input
-              type="button"
-              onclick="window.open('https://open.spotify.com/user/won2gffyniwo8q9j8r82qac52', '_blank')"
-              value="Go to Spotify"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="playlistCont">
-        <div id="playlistCont-elements">
-          <span class="logo spotify-logo"></span>
-          <div class="landscape-elements">
-            <h1 id="social-h1 dimmed">
-              Is my playlist on
-              <span class="social-name">Spotify</span>
-            </h1>
-            <p class="desc social-dimmed">
-              My self-made playlist on Spotify, which I advise you NOT to listen
-            </p>
-            <input
-              type="button"
-              onclick="window.open('https://open.spotify.com/playlist/6sDXE09Bg9W4hy5SmwdkAu?si=a52de86f77f442e2', '_blank')"
-              value="Not listen"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="discordCont">
-        <div id="discordCont-elements">
-          <span class="logo discord-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              Sometimes I also sit here on
-              <span class="social-name">Discord</span>
-            </h1>
-            <p class="desc social-dimmed">Place where I mostly online</p>
-            <input
-              type="text"
-              onclick="copy()"
-              value="Кирюша#4248"
-              class="social-btn"
-              id="ds"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="boostyCont">
-        <div id="boostyCont-elements">
-          <span class="logo boosty-logo"></span>
-          <div class="landscape-elements">
-            <h1 class="social-h1 dimmed">
-              Donate to me on <span class="social-name">Boosty</span>
-            </h1>
-            <p class="desc social-dimmed">Some resources and just donations</p>
-            <input
-              type="button"
-              onclick="window.open('https://boosty.to/chiminori', '_blank')"
-              value="Go to Boosty"
-              class="social-btn"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div id="footerCont">
-        <div id="footerCont-elements">
-          <span class="logo arrow-up-icon"></span>
-          <div class="landscape-elements">
-            <h1>Let's scroll to the beggining of the page</h1>
-            <input
-              type="button"
-              onclick="window.scrollTo({
-                            top: 0,
-                            left: 0,
-                            behavior: 'smooth'
-                            })"
-              value="Scroll up"
-            />
-          </div>
+    <div id="vkCont">
+      <div id="vkCont-elements">
+        <span class="logo vk-logo"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            <span class="social-name">VK</span>
+          </h1>
+          <p class="desc social-dimmed">
+            My first social network where I signed up
+          </p>
+          <input type="button" onclick="this.value='Oops!'" value="Go to VK" class="social-btn" />
         </div>
       </div>
     </div>
-  </body>
+
+    <div id="tgCont">
+      <div id="tgCont-elements">
+        <span class="logo tg-logo"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            Here I am in <span class="social-name">Telegram</span>
+          </h1>
+          <p class="desc social-dimmed">
+            My favourite messenger where I spend most of my time, not even
+            that, I spend all my time!
+          </p>
+          <input type="button" onclick="window.open('https://web.telegram.org/k/#@myAlfredo', '_blank')"
+            value="Go to Telegram" class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="igCont">
+      <div id="igCont-elements">
+        <span class="logo ig-logo"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            My <span class="social-name">Instagram</span>
+          </h1>
+          <p class="desc social-dimmed">
+            A place to share any photos, sometimes I post as well
+          </p>
+          <input type="button" onclick="window.open('https://instagram.com/man_unexpected_error', '_blank')"
+            value="Go to Instagram" class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="githubCont">
+      <div id="githubCont-elements">
+        <span class="logo github-logo"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            Here I am on <span class="social-name">GitHub</span>
+          </h1>
+          <p class="desc social-dimmed">Hosting my hobby repositories here</p>
+          <input type="button" onclick="window.open('https://github.com/kirilloooo', '_blank')" value="Go to GitHub"
+            class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="figmaCont">
+      <div id="figmaCont-elements">
+        <span class="figma-logo figma"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            I am in <span class="txt-figma">Figma</span>
+          </h1>
+          <p class="desc social-dimmed">I am a designer(no).</p>
+          <input type="button" onclick="window.open('https://www.figma.com/@chiminori', '_blank')" value="Go to Figma"
+            class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="twitterCont">
+      <div id="twitterCont-elements">
+        <span class="logo twitter-logo"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            Dark me on <span class="social-name">Twitter</span>
+          </h1>
+          <p class="desc social-dimmed">
+            It's just there, I visit from time to time.
+          </p>
+          <input type="button" onclick="window.open('https://twitter.com/chiminori_', '_blank')" value="Go to Twitter"
+            class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="spotifyCont">
+      <div id="spotifyCont-elements">
+        <span class="logo spotify-logo"></span>
+        <div class="landscape-elements">
+          <h1 id="social-h1 dimmed">
+            Listening on <span class="social-name">Spotify</span>
+          </h1>
+          <p class="desc social-dimmed">
+            My beloved streaming service that I absolutely adore
+          </p>
+          <input type="button"
+            onclick="window.open('https://open.spotify.com/user/won2gffyniwo8q9j8r82qac52', '_blank')"
+            value="Go to Spotify" class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="playlistCont">
+      <div id="playlistCont-elements">
+        <span class="logo spotify-logo"></span>
+        <div class="landscape-elements">
+          <h1 id="social-h1 dimmed">
+            Is my playlist on
+            <span class="social-name">Spotify</span>
+          </h1>
+          <p class="desc social-dimmed">
+            My self-made playlist on Spotify, which I advise you NOT to listen
+          </p>
+          <input type="button"
+            onclick="window.open('https://open.spotify.com/playlist/6sDXE09Bg9W4hy5SmwdkAu?si=a52de86f77f442e2', '_blank')"
+            value="Not listen" class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="discordCont">
+      <div id="discordCont-elements">
+        <span class="discord-logo wumpus musicstart" style="cursor: pointer;"></span>
+        <audio class="music" preload="auto">
+          <source src="assets/audio/wumpus.mpeg" controls="" autobuffer="" />
+        </audio>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            Sometimes I also sit here on
+            <span class="social-name musicstart2" style="cursor: pointer;">Discord</span>
+            <audio class="music2" preload="auto">
+              <source src="assets/audio/vocal-fx-discordo.wav" controls="" autobuffer="" />
+            </audio>
+            <script>
+              jQuery(function ($) {
+                $('.musicstart2').on('click', function () {
+                  $('.music2')[0].play()
+                });
+                $('.music2').hide();
+              });
+            </script>
+            <script>
+              jQuery(function ($) {
+                $('.musicstart').on('click', function () {
+                  $('.music')[0].play()
+                });
+                $('.music').volume = 0.1;
+                $('.music').hide();
+              });
+            </script>
+          </h1>
+          <p class="desc social-dimmed">Place where I mostly online</p>
+          <input type="text" onclick="copy()" value="@chiminori" class="social-btn" id="ds" />
+        </div>
+      </div>
+    </div>
+
+    <div id="boostyCont">
+      <div id="boostyCont-elements">
+        <span class="logo boosty-logo"></span>
+        <div class="landscape-elements">
+          <h1 class="social-h1 dimmed">
+            Donate to me on <span class="social-name">Boosty</span>
+          </h1>
+          <p class="desc social-dimmed">Some resources and just donations</p>
+          <input type="button" onclick="window.open('https://boosty.to/chiminori', '_blank')" value="Go to Boosty"
+            class="social-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="footerCont">
+      <div id="footerCont-elements">
+        <span class="logo arrow-up-icon"></span>
+        <div class="landscape-elements">
+          <h1>Let's scroll to the beggining of the page</h1>
+          <input type="button" onclick="window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: 'smooth'
+                            })" value="Scroll up" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

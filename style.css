@@ -315,7 +315,7 @@ span.txt-figma {
 }
 
 /* Define settings for logos */
-.logo {
+.logo, .wumpus {
     display: inline-block;
     width: 164px;
     height: 164px;
@@ -324,6 +324,10 @@ span.txt-figma {
 
 .logo:active {
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.wumpus:hover {
+    background-image: url(assets/img/wumpus.gif) !important;
 }
 
 .figma {
@@ -571,7 +575,7 @@ span.txt-figma {
     }
 
     #fourzerofour-icon,
-    .logo {
+    .logo,.wumpus {
         width: 128px;
         height: 128px;
     }
@@ -639,7 +643,7 @@ span.txt-figma {
     }
 
     #fourzerofour-icon,
-    .logo {
+    .logo, .wumpus {
         width: 144px;
         height: 144px;
     }
