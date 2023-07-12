@@ -6,7 +6,7 @@
     --vk-color: #2787F5;
     --tg-color: #25A3E2;
     --ig-color: #ED4C82;
-    --twitter-color: #41ABE1;
+    --threads-color: #000000;
     --discord-color: #5865F2;
     --github-color: #181616;
     --figma-color: #000000;
@@ -67,9 +67,9 @@ body {
 #vkCont,
 #tgCont,
 #igCont,
+#threadsCont,
 #boostyCont,
 #figmaCont,
-#twitterCont,
 #discordCont,
 #githubCont,
 #spotifyCont,
@@ -90,9 +90,9 @@ body {
 #vkCont-elements,
 #tgCont-elements,
 #igCont-elements,
+#threadsCont-elements,
 #boostyCont-elements,
 #figmaCont-elements,
-#twitterCont-elements,
 #discordCont-elements,
 #githubCont-elements,
 #spotifyCont-elements,
@@ -145,8 +145,8 @@ body {
     background-color: var(--figma-color);
 }
 
-#twitterCont {
-    background-color: var(--twitter-color);
+#threadsCont {
+    background-color: var(--threads-color);
 }
 
 #discordCont {
@@ -315,7 +315,7 @@ span.txt-figma {
 }
 
 /* Define settings for logos */
-.logo, .wumpus {
+.logo, .wumpus, .telegram, .figma, .threads {
     display: inline-block;
     width: 164px;
     height: 164px;
@@ -328,13 +328,6 @@ span.txt-figma {
 
 .wumpus:hover {
     background-image: url(assets/img/wumpus.gif) !important;
-}
-
-.figma {
-    display: inline-block;
-    width: 164px;
-    height: 164px;
-    background-size: cover;
 }
 
 .figma:active {
@@ -354,7 +347,11 @@ span.txt-figma {
     background-image: url(assets/icons/social/ig-logo.svg);
 }
 
-.twitter-logo {
+.threads-logo {
+    background-image: url(assets/icons/social/threads-logo.svg);
+}
+
+.threads-logo:hover {
     background-image: url(assets/icons/social/twitter-logo.svg);
 }
 
@@ -575,7 +572,7 @@ span.txt-figma {
     }
 
     #fourzerofour-icon,
-    .logo,.wumpus {
+    .logo,.wumpus, .figma {
         width: 128px;
         height: 128px;
     }
@@ -643,7 +640,7 @@ span.txt-figma {
     }
 
     #fourzerofour-icon,
-    .logo, .wumpus {
+    .logo, .wumpus, .figma {
         width: 144px;
         height: 144px;
     }
