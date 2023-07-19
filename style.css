@@ -573,7 +573,7 @@ span.txt-figma {
     }
 
     #fourzerofour-icon,
-    .logo,.wumpus, .figma {
+    .logo,.wumpus, .figma, .threads {
         width: 128px;
         height: 128px;
     }
@@ -642,7 +642,7 @@ span.txt-figma {
     }
 
     #fourzerofour-icon,
-    .logo, .wumpus, .figma {
+    .logo, .wumpus, .figma, .threads {
         width: 144px;
         height: 144px;
     }
