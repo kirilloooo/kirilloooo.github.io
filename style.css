@@ -317,9 +317,9 @@ span.txt-figma {
 /* Define settings for logos */
 .logo, .wumpus, .telegram, .figma, .threads {
     display: inline-block;
+    background-size: cover;
     width: 164px;
     height: 164px;
-    background-size: cover;
 }
 
 .logo:active {
@@ -410,7 +410,9 @@ span.txt-figma {
 
     /* Define settings for avatar, 404 icon */
     #avatar {
-        border: 14px solid var(--accent);
+        display: inline-block;
+        background-size: cover;
+        border: 7px solid var(--accent);
     }
 
     #fourzerofour-icon {
@@ -494,7 +496,9 @@ span.txt-figma {
 
     /* Define settings for avatar, 404 icon */
     #avatar {
-        border: 14px solid var(--accent);
+        display: inline-block;
+        background-size: cover;
+        border: 7px solid var(--accent);
     }
 
     #fourzerofour-icon {
@@ -579,6 +583,8 @@ span.txt-figma {
     }
 
     #avatar {
+        display: inline-block;
+        background-size: cover;
         width: 196px;
         height: 196px;
     }
@@ -653,6 +659,8 @@ span.txt-figma {
     }
 
     #avatar {
+        display: inline-block;
+        background-size: cover;
         width: 208px;
         height: 208px;
     }
